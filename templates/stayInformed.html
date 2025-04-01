@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awareness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/brands.min.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='stayInformed.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="title">
+          <h1>NeuroPulse</h1>
+        </div>
+        <div class="nav-element">
+          <a href="{{ url_for('home') }}">Home</a>
+          <a href="{{ url_for('predict') }}">Predict Stroke</a>
+          
+        </div>
+      </nav>
+    <div class="main-container">
+     <h1>Awareness</h1>
+     
+     <div class="hastag">
+        <button > #risk factors</button>
+        <button>#prevention methods</button>
+        <button>#awareness campaign</button>
+     </div>
+     <div class="div-banner">
+     <img class="banner" src="{{ url_for('static', filename='images/wepik-export-20240327102445nyQX.jpeg') }}">
+     
+    </div>
+
+    <div class="quotes1">
+        <h3>//Understanding Strokes</h3>
+        <p>NeuroPulse focuses on educatting about Strokes, their risk factors, way to prevent it and predict your health towards stroke.It empower individuals with knowledge to take proactive measures for their health.</p>
+
+    </div>
+    <hr class="l">
+
+    <div class="container">
+        <div class="box">
+            <img  src="{{ url_for('static', filename='images/checkup.jpg') }}">
+            
+            <h3>PREVENTION STRATEGIES</h3>
+            <p>Neuropulse provides personalized stroke prevention stategies based on individual risk factors. Usage can access a range of resources to help them make informed decisions about their health. </p>
+        </div>
+        <div class="box">
+            <img src="{{ url_for('static', filename='images/fruits.jpg') }}">
+            
+            <h3>RAISING AWARENESS</h3>
+            <p>Raising awareness about strokes is crucial in reducing the incidence of this condition. NeuroPulse's initiative focus on spreading knowledge, promoting healthy lifestyles,encouraging regular health check-ups</p>
+            
+        </div>
+    </div>
+
+    <hr class="l">  
+    <div class="yoga">
+        <h4>Educational videos</h4>
+        <div class="image-container">
+        <div id="overlay" ></div>
+        <img src="{{ url_for('static', filename='images/peakpx (1).jpg') }}">
+        <i class="fa-solid fa-play" style="color: #fcfafa;"></i>
+        </div>
+    </div>
+     
+    </div>
+    
+    <footer>
+            <div class="footer-container">
+                <div class="col-1">
+                <h2>NeuroPulse</h2>
+                <p>Neuro Pulse is a website focused on stroke awareness and prevention. It features a machine learning-based prediction tool for assessing stroke risk, along with information on stroke causes, symptoms, and treatment options. Join us in promoting a healthier, stroke-free world.</p>
+
+                </div>
+                <div class="col-2">
+                <h4>Contact us</h4>
+                <ol>
+                    <li><i class="fa-solid fa-book" style="color: #000000;padding: 5px;"></i></i>TamilNadu, India</li>
+                    <li><i class="fa-solid fa-phone" style="color: #000000;padding: 5px;"></i>+91-83561478903</li>
+                </ol>
+
+                </div>
+                <div class="col3">
+                <h4>Quick Links</h4>
+                <ol>
+                    <li>About us</li>
+                    <li>FAQ</li>
+                    <li>Privacy</li>
+                    <li>Terms and Condition</li>
+                </ol>
+
+                </div>
+                <div class="col4">
+                    <h4>Social Media</h4>
+                    <ol>
+                        <li><i class="fa-brands fa-square-facebook" style="color: #000000;padding: 5px;"></i> Facebook</li>
+                        <li><i class="fa-brands fa-linkedin" style="color: #000000;padding: 5px;"></i> LinkedIn</li>
+                        <li><i class="fa-brands fa-instagram" style="color: #000000;padding: 5px;"></i> instagram</li>
+                        <li><i class="fa-brands fa-twitter" style="color: #000000; padding: 5px;"></i> Twitter</li>
+                        
+                    </ol>
+    
+                    </div>
+                </div>
+                   <div class="copy"> <p>&copy; 2024 NeuroPulse. All Rights Reserved.</p>       
+    </footer>
+</body>
+</html>

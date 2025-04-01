@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Causes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/brands.min.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='causes.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="title">
+          <h1>NeuroPulse</h1>
+        </div>
+        <div class="nav-element">
+          <a href="{{ url_for('home') }}">Home</a>
+          <a href="{{ url_for('predict') }}">Predict Stroke</a>
+          <a href="{{ url_for('stay_informed') }}">Awareness</a>
+        </div>
+      </nav>
+      
+      <div class="container">
+        <div class="mini-container1">
+            <img src="{{ url_for('static', filename='images/blockage1photo.jpg') }}">
+            <div style="padding: 10px;">
+            <h2>Ischemic Strokes</h2>
+            <p>Ischemic strokes are the most common type of stroke, accounting for about 87% of all strokes. They occur when a blockage or clot in a blood vessel reduces or completely stops blood flow to part of the brain. This blockage is often caused by atherosclerosis, a condition where fatty deposits called plaque build up inside the arteries, narrowing them and restricting blood flow</p>
+            </div>
+        </div>
+        <div class="mini-container2">
+            <div style="padding: 10px;">
+            <h2>Hemorrhagic Strokes</h2>
+            <p>Hemorrhagic strokes occur when a blood vessel in the brain leaks or ruptures, causing bleeding in or around the brain tissue. This type of stroke accounts for about 13% of all strokes but is responsible for a higher proportion of stroke-related deaths. There are two main types of hemorrhagic strokes</p>
+        </div>
+            <img src="{{ url_for('static', filename='images/bleeding2photo.jpg') }}">
+        </div>
+        
+        <div class="mini-container3">
+            
+            <img src=" {{ url_for('static', filename='images/carotid-artery-disease-img5.jpg') }}">
+           
+            <div style="padding: 10px;">
+            <h2>Carotid Artery Disease </h2>
+            <p>Carotid artery disease is a condition characterized by the narrowing or blockage of the carotid arteries, the two major blood vessels in the neck that supply blood to the brain, face, and neck. This narrowing is often caused by atherosclerosis, a buildup of plaque (a combination of fat, cholesterol, and other substances) on the inner walls of the arteries.</p>
+            </div>
+        </div>
+        <div class="mini-container4">
+            <div style="padding: 10px;">
+            <h2>Obesity</h2>
+           <p>Obesity is a significant risk factor for stroke. It is associated with other health conditions such as high blood pressure, high cholesterol, diabetes, and heart disease, all of which can increase the risk of stroke. Obesity can lead to the development of atherosclerosis, a condition characterized by the buildup of plaque in the arteries, including those that supply blood to the brain. This plaque buildup narrows the arteries and reduces blood flow, increasing the risk of a clot forming and blocking blood flow to the brain, causing an ischemic stroke.</p>
+        </div>
+            <img src="{{ url_for('static', filename='images/obesity3photo.webp') }}">
+            
+        </div>
+        <div class="mini-container5">
+            <img src="{{ url_for('static', filename='images/stress4photo.jpg') }}">
+            
+            <div style="padding: 10px;">
+            <h2>Stress</h2>
+            <p>Stress can contribute to an increased risk of stroke and may also negatively impact recovery after a stroke. Chronic stress can lead to unhealthy behaviors such as smoking, excessive drinking, poor diet, and lack of exercise, all of which are risk factors for stroke. Stress can also directly affect the cardiovascular system, increasing blood pressure and heart rate, which can strain the arteries and lead to atherosclerosis (hardening of the arteries). Atherosclerosis is a major risk factor for stroke as it can lead to the formation of blood clots that can block blood flow to the brain.</p>
+        </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-container">
+            <div class="col-1">
+            <h2>NeuroPulse</h2>
+            <p>Neuro Pulse is a website focused on stroke awareness and prevention. It features a machine learning-based prediction tool for assessing stroke risk, along with information on stroke causes, symptoms, and treatment options. Join us in promoting a healthier, stroke-free world.</p>
+
+            </div>
+            <div class="col-2">
+            <h4>Contact us</h4>
+            <ol>
+                <li><i class="fa-solid fa-book" style="color: #000000;padding: 5px;"></i></i>TamilNadu, India</li>
+                <li><i class="fa-solid fa-phone" style="color: #000000;padding: 5px;"></i>+91-83561478903</li>
+            </ol>
+
+            </div>
+            <div class="col3">
+            <h4>Quick Links</h4>
+            <ol>
+                <li>About us</li>
+                <li>FAQ</li>
+                <li>Privacy</li>
+                <li>Terms and Condition</li>
+            </ol>
+
+            </div>
+            <div class="col4">
+                <h4>Social Media</h4>
+                <ol>
+                    <li><i class="fa-brands fa-square-facebook" style="color: #000000;padding: 5px;"></i> Facebook</li>
+                    <li><i class="fa-brands fa-linkedin" style="color: #000000;padding: 5px;"></i> LinkedIn</li>
+                    <li><i class="fa-brands fa-instagram" style="color: #000000;padding: 5px;"></i> instagram</li>
+                    <li><i class="fa-brands fa-twitter" style="color: #000000; padding: 5px;"></i> Twitter</li>
+                    
+                </ol>
+
+                </div>
+            </div>
+               <div class="copy"> <p>&copy; 2024 NeuroPulse. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

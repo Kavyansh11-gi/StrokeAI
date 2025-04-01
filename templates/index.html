@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>NeuroPulse</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link 
+      rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/brands.min.css" 
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="title">
+        <h1>NeuroPulse</h1>
+      </div>
+      <div class="nav-element">
+        <a href="{{ url_for('predict') }}">Predict Stroke</a>
+        <a href="{{ url_for('stay_informed') }}">Awareness</a>
+      </div>
+    </nav>
+    
+    <div class="header">
+      <img class="header-img" src="{{ url_for('static', filename='images/unique-black-kitchen-island-and-bar-combination.jpg') }}" />
+      <div class="content-container">
+          <h3>NeuroPulse: AI Pulse for Stroke Prevention, Safeguarding Brain Health for healthier tomorrow</h3>
+          <form action="" method="">
+              <button formaction="/predict">
+                  Predict&nbsp;  <i class="fas fa-arrow-right"></i>
+              </button>
+          </form>
+      </div>
+  </div>
+
+    <div class="option">
+
+     <form  action="">
+      <button formaction="/predict">Predict</button>
+    </form>
+    <form action="" method="GET">
+      <button formaction="/causes">Causes of stroke</button>
+      <button formaction="/prevention">Stay Informed</button>
+      <button formaction="/stayInformed">Awareness</button>
+</form>
+    </div>
+
+    <div class="container">
+      <h2>Popular in India</h2>
+      <div class="container-pop">
+        <div class="container-section">
+          <img class="container-img" src="{{ url_for('static', filename='images/Brainomixstroke.jpg.webp') }}" />
+
+          <h4>Incidence and mortality</h4>
+          <p style="font-weight:200;">stroke takes nearly 5.5 million...</p>
+        </div>
+        <div class="container-section">
+         
+          <img class="container-img" src="{{ url_for('static', filename='images/106244260.webp') }}" />
+
+          <h4>Second most cause of death</h4>
+          <p>Stroke is indeed a leading cause...</p>
+        </div>
+        <div class="container-section">
+          
+          <img class="container-img" src="{{ url_for('static', filename='images/sdoh_shutterstock_473742535_cropped.jpg') }}" />
+          <h4>Risk factor</h4>
+          <p> modifiable and non-modifiable...</p>
+        </div>
+        <div class="container-section">
+          
+           <img class="container-img" src="{{ url_for('static', filename='images/ftcms_df434072-2dd0-11e4-8346-00144feabdc0.avif') }}" />
+
+          <h4>Poverty and Stroke</h4>
+          <p> social determinants of health...</p>
+        </div>
+      </div>
+
+
+
+      <h2>This week in stroke awareness</h2>
+      
+        <div class="container-pop">
+            <div class="container-section">
+              
+              <img class="container-img" src="{{ url_for('static', filename='images/ABC_StrokeAwareness.jpg') }}" />
+
+              <h4>Stroke awareness month</h4>
+              <p>This month is considered...</p>
+            </div>
+            <div class="container-section">
+
+              <img class="container-img" src="{{ url_for('static', filename='images/STROKE.jpg') }}" />
+
+              <h4>What causes a stroke</h4>
+              <p>Recent survey says that...</p>
+            </div>
+            <div class="container-section">
+
+              <img class="container-img" src="{{ url_for('static', filename='images/SignsofStroke_May2018-845x321.png') }}" />
+
+              <h4>Take care of your body</h4>
+              <p>The most important thing...</p>
+            </div>
+            <div class="container-section">
+
+               <img class="container-img" src="{{ url_for('static', filename='images/cpp-stroke-awareness-month-FAST-1.webp') }}" />
+
+              <h4>Signs of stroke</h4>
+              <p>Firstly you will have ...</p>
+            </div>
+      </div>
+    </div>
+  </div>
+      <footer>
+        <div class="footer-container">
+            <div class="col-1">
+            <h2>NeuroPulse</h2>
+            <p>Neuro Pulse is a website focused on stroke awareness and prevention. It features a machine learning-based prediction tool for assessing stroke risk, along with information on stroke causes, symptoms, and treatment options. Join us in promoting a healthier, stroke-free world.</p>
+
+            </div>
+            <div class="col-2">
+            <h4>Contact us</h4>
+            <ol>
+                <li><i class="fa-solid fa-book" style="color: #000000;padding: 5px;"></i></i>TamilNadu, India</li>
+                <li><i class="fa-solid fa-phone" style="color: #000000;padding: 5px;"></i>+91-83561478903</li>
+            </ol>
+
+            </div>
+            <div class="col3">
+            <h4>Quick Links</h4>
+            <ol>
+                <li>About us</li>
+                <li>FAQ</li>
+                <li>Privacy</li>
+                <li>Terms and Condition</li>
+            </ol>
+
+            </div>
+            <div class="col4">
+                <h4>Social Media</h4>
+                <ol>
+                    <li><i class="fa-brands fa-square-facebook" style="color: #000000;padding: 5px;"></i> Facebook</li>
+                    <li><i class="fa-brands fa-linkedin" style="color: #000000;padding: 5px;"></i> LinkedIn</li>
+                    <li><i class="fa-brands fa-instagram" style="color: #000000;padding: 5px;"></i> instagram</li>
+                    <li><i class="fa-brands fa-twitter" style="color: #000000; padding: 5px;"></i> Twitter</li>
+                    
+                </ol>
+
+                </div>
+            </div>
+               <div class="copy"> <p>&copy; 2024 NeuroPulse. All Rights Reserved.</p>
+       
+      
+</footer>
+
+  </body>
+</html>
+

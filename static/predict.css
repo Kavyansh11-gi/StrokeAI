@@ -1,0 +1,162 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/samuel-scalzo-xyuYk9oLA8I-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    background-color:  rgb(49, 49, 48);
+}
+
+.title {
+    padding: 10px;
+}
+
+.nav-element {
+    display: flex;
+    padding: 15px;
+    column-gap: 20px;
+    font-weight: bold;
+
+}
+
+.nav-element a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+form {
+    width: 40%;
+    display: inline-block;
+    margin-left: 50px;
+    padding: 20px;
+   
+    border-radius: 10px;
+    
+    backdrop-filter: blur(5px);
+}
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.form-group {
+    width: 48%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #c3b8b8;
+}
+
+input[type="number"],
+input[type="submit"],
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+footer{
+    color: white;
+    background-color: rgb(55, 55, 55);
+}
+.footer-container{
+   
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+.col-1,.col-3,.col-4{
+    width: 20%;
+    padding: 10px;
+}
+.footer-container h4{
+    padding: 10px;
+}
+.footer-container ol {
+    list-style-type: none; 
+}
+.footer-container li{
+    padding: 5px;
+    text-decoration: none;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+h3{
+    width: 40%;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    line-height: 1cm;
+    align-content: center;
+}
+
+@media screen and (max-width:800px){
+    .container {
+        display: block;
+    }
+
+    form {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        width: 100%;
+        text-align: center;
+        font-size: larger;
+        margin-top: 20px; 
+    }
+
+    input[type="number"],
+    input[type="submit"],
+    input[type="text"],
+    select {
+        width: 90%; 
+    }
+
+
+}
+

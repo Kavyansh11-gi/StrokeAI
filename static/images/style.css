@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color:black;
+    height: 200vh;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    background-color:  rgb(49, 49, 48);
+}
+
+.title {
+    padding: 10px;
+}
+
+.nav-element {
+    display: flex;
+    padding: 15px;
+    column-gap: 20px;
+    font-weight: bold;
+
+}
+
+.nav-element a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+
+}
+
+.header-img {
+    height: 100%;
+    width: 100%;
+}
+
+.header button {
+    position: absolute;
+    top: 65%;
+    margin-top: 5px;
+    background-color: rgb(99, 96, 96);
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+
+
+}
+.header h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    word-wrap: break-word;
+    font-size: 2rem;
+    text-align: center;
+    color:rgb(49, 49, 48);
+    line-height: 1.5;
+}
+
+.option {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    height: fit-content;
+    color: white;
+}
+
+.option button {
+    height: 70px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:  rgb(49, 49, 48);
+    width: 200px;
+    margin: 10px;
+    font-size: medium;
+    color: white;
+}
+
+.container {
+    margin: 10px;
+    color:white;
+    text-align: center
+}
+
+.container-pop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container-section {
+    height: 200px;
+    width: 300px;
+
+    background-color:  rgb(49, 49, 48);
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+}
+
+.container-img {
+    
+    height: 150px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.footer-content {
+    background-color:  rgb(49, 49, 48)  ;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: fit-content
+}

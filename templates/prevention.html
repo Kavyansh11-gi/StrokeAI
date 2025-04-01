@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stay Informed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/brands.min.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='prevention.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="title">
+          <h1>NeuroPulse</h1>
+        </div>
+        <div class="nav-element">
+          <a href="{{ url_for('home') }}">Home</a>
+          <a href="{{ url_for('predict') }}">Predict Stroke</a>
+          <a href="{{ url_for('stay_informed') }}">Awareness</a>
+        </div>
+      </nav>
+
+
+   <div class="whole-container">
+      <div class="container">
+        <div class="i"><img src=" {{ url_for('static', filename='images/wallpaperflare.com_wallpaper (2).jpg') }}"></div>
+       
+        <div class="d0"><h1>Stay Informed</h1></div>
+        <div class="d1"><h2>Prevention</h2></div>
+        <div class="d2"><h3>Early warning signs</h3></div>
+        <div class="d3"><button class="container-button">Learn now</button></div>
+        <div class="l"><hr></div>
+        <div class="d4"><h2><Small></Small>Stay Healthy</h2></div>
+        <div class="d5"><h3>Emergency response</h3></div>
+        <div class="d6"><button class="container-button">Get help</button></div>
+        <div class="d7"><h2>Spread</h2></div>
+        <div class="d8"><h3>Support Stoke Victim</h3></div>
+        <div class="d9"><button class="container-button">Donate Now</button></div>
+        <div class="d10"><h2>Make a change</h2></div>
+        <div class="d11"><h3>Join our campaign</h3></div>
+        <div class="d12"><button class="container-button ">Volunteer Today</button></div>
+        <div class="d13"><h2>Stay Informed</h2></div>
+        <div class="d14"><h3>Community Engagement</h3></div>
+        <div class="d15"><button class="container-button">Join Discussion</button></div>
+        <div class="d16"><h2 >Connect with us</h2></div>
+        <div class="d17"><h3 >Get Involved</h3></div>
+        <div class="d18"> <button class="container-button">Take action</button></div>
+        <div class="d19"><h2>Spread the word</h2></div>
+        <div class="d20"><h3>Stay Healthy</h3></div>
+        <div class="d21"><button>Join us</button></div>
+        <div class="l1"><hr></div>
+        <div class="l2"><hr></div>
+        <div class="l3"><hr></div>
+        <div class="l4"><hr></div>
+        <div class="l5"><hr></div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+          <div class="col-1">
+          <h2>NeuroPulse</h2>
+          <p>Neuro Pulse is a website focused on stroke awareness and prevention. It features a machine learning-based prediction tool for assessing stroke risk, along with information on stroke causes, symptoms, and treatment options. Join us in promoting a healthier, stroke-free world.</p>
+
+          </div>
+          <div class="col-2">
+          <h4>Contact us</h4>
+          <ol>
+              <li><i class="fa-solid fa-book" style="color: #000000;padding: 5px;"></i></i>TamilNadu, India</li>
+              <li><i class="fa-solid fa-phone" style="color: #000000;padding: 5px;"></i>+91-83561478903</li>
+          </ol>
+
+          </div>
+          <div class="col3">
+          <h4>Quick Links</h4>
+          <ol>
+              <li>About us</li>
+              <li>FAQ</li>
+              <li>Privacy</li>
+              <li>Terms and Condition</li>
+          </ol>
+
+          </div>
+          <div class="col4">
+              <h4>Social Media</h4>
+              <ol>
+                  <li><i class="fa-brands fa-square-facebook" style="color: #000000;padding: 5px;"></i> Facebook</li>
+                  <li><i class="fa-brands fa-linkedin" style="color: #000000;padding: 5px;"></i> LinkedIn</li>
+                  <li><i class="fa-brands fa-instagram" style="color: #000000;padding: 5px;"></i> instagram</li>
+                  <li><i class="fa-brands fa-twitter" style="color: #000000; padding: 5px;"></i> Twitter</li>
+                  
+              </ol>
+
+              </div>
+          </div>
+             <div class="copy"> <p>&copy; 2024 NeuroPulse. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -15,7 +15,7 @@ StrokeAI is a website that predicts strokes using a machine learning Random Fore
 
 ## Setup Instructions
 
-1. Clone the repository: `git clone https://github.com/DhushyanthRavichandran/NeuroPulse.git`
+1. Clone the repository: `https://github.com/Kavyansh11-gi/StrokeAI`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the Flask app: `python app.py`
 4. Open `http://localhost:5000` in your web browser
